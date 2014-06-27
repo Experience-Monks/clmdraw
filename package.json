@@ -1,0 +1,25 @@
+{
+  "name": "clmdraw",
+  "version": "0.0.0",
+  "description": "CLM Trackr has a built in draw method. This module exposes the ability to draw face parts individually using a custom strokestyle",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Jam3/clmdraw.git"
+  },
+  "keywords": [
+    "clm",
+    "trackr",
+    "tracker",
+    "draw"
+  ],
+  "author": "Mikko Haapoja <me@mikkoh.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Jam3/clmdraw/issues"
+  },
+  "homepage": "https://github.com/Jam3/clmdraw"
+}
