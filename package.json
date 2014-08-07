@@ -1,6 +1,6 @@
 {
   "name": "clmdraw",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "CLM Trackr has a built in draw method. This module exposes the ability to draw face parts individually using a custom strokestyle",
   "main": "index.js",
   "scripts": {
