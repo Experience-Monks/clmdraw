@@ -1,18 +1,26 @@
 <a name="module_clmdraw"></a>
 #clmdraw
+
+## Example
+```javascript
+ // pointsFromCLM are points that were detected by clm of a persons face
+ // canvas is a HTMLCanvasElement
+ // last property is a colour you'd like to draw with
+ clmdraw.draw( pointsFromCLM, canvas, '#OOCAFE' );
+ clmdraw.drawLeftEye( pointsFromCLM, canvas, '#FF00FF' );
+ ```
+
 **Members**
 
-* [clmdraw](#module_clmdraw)
-  * [module.exports ⏏](#exp_module_clmdraw)
-    * [clmdraw.draw](#module_clmdraw.draw)
-    * [clmdraw.drawForehead](#module_clmdraw.drawForehead)
-    * [clmdraw.drawJaw](#module_clmdraw.drawJaw)
-    * [clmdraw.drawLeftEye](#module_clmdraw.drawLeftEye)
-    * [clmdraw.drawLeftEyeBrow](#module_clmdraw.drawLeftEyeBrow)
-    * [clmdraw.drawLips](#module_clmdraw.drawLips)
-    * [clmdraw.drawNose](#module_clmdraw.drawNose)
-    * [clmdraw.drawRightEye](#module_clmdraw.drawRightEye)
-    * [clmdraw.drawRightEyeBrow](#module_clmdraw.drawRightEyeBrow)
+* [clmdraw.draw](#module_clmdraw.draw)
+* [clmdraw.drawForehead](#module_clmdraw.drawForehead)
+* [clmdraw.drawJaw](#module_clmdraw.drawJaw)
+* [clmdraw.drawLeftEye](#module_clmdraw.drawLeftEye)
+* [clmdraw.drawLeftEyeBrow](#module_clmdraw.drawLeftEyeBrow)
+* [clmdraw.drawLips](#module_clmdraw.drawLips)
+* [clmdraw.drawNose](#module_clmdraw.drawNose)
+* [clmdraw.drawRightEye](#module_clmdraw.drawRightEye)
+* [clmdraw.drawRightEyeBrow](#module_clmdraw.drawRightEyeBrow)
 
 <a name="module_clmdraw.draw"></a>
 ####clmdraw.draw( clmPositions, canvas, [strokeStyle, doClear ] )
