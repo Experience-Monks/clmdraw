@@ -26,7 +26,7 @@ module.exports = {
 	 * wont be drawn.
 	 * 
 	 * @param  {Array} clmPositions The points returned from clm for the detected face
-	 * @param  {HTMLCanvasElement} The canvas which you want to draw the clm face on
+	 * @param  {HTMLCanvasElement} canvas The canvas which you want to draw the clm face on
 	 * @param  {String} [strokeStyle] How thick and what colour you'd like to draw your lines
 	 *                                default is the strokestyle defined by the canvas
 	 * @param  {Boolean} [doClear] Should the canvas context be cleared before draw default is true
@@ -37,7 +37,7 @@ module.exports = {
 	 * This method will draw just the forehead points if they exist to the supplied canvas
 	 * 
 	 * @param  {Array} clmPositions The points returned from clm for the detected face
-	 * @param  {HTMLCanvasElement} The canvas which you want to draw the clm face feature on
+	 * @param  {HTMLCanvasElement} canvas The canvas which you want to draw the clm face feature on
 	 * @param  {String} [strokeStyle] How thick and what colour you'd like to draw your lines
 	 *                                default is the strokestyle defined by the canvas
 	 * @param  {Boolean} [doClear] Should the canvas context be cleared before draw default is true
@@ -48,7 +48,7 @@ module.exports = {
 	 * This method will draw just the jaw points to the supplied canvas
 	 * 
 	 * @param  {Array} clmPositions The points returned from clm for the detected face
-	 * @param  {HTMLCanvasElement} The canvas which you want to draw the clm face feature on
+	 * @param  {HTMLCanvasElement} canvas The canvas which you want to draw the clm face feature on
 	 * @param  {String} [strokeStyle] How thick and what colour you'd like to draw your lines
 	 *                                default is the strokestyle defined by the canvas
 	 * @param  {Boolean} [doClear] Should the canvas context be cleared before draw default is true
@@ -59,7 +59,7 @@ module.exports = {
 	 * This method will draw just the left eye points to the supplied canvas
 	 * 
 	 * @param  {Array} clmPositions The points returned from clm for the detected face
-	 * @param  {HTMLCanvasElement} The canvas which you want to draw the clm face feature on
+	 * @param  {HTMLCanvasElement} canvas The canvas which you want to draw the clm face feature on
 	 * @param  {String} [strokeStyle] How thick and what colour you'd like to draw your lines
 	 *                                default is the strokestyle defined by the canvas
 	 * @param  {Boolean} [doClear] Should the canvas context be cleared before draw default is true
@@ -70,7 +70,7 @@ module.exports = {
 	 * This method will draw just the left eyebrow points to the supplied canvas
 	 * 
 	 * @param  {Array} clmPositions The points returned from clm for the detected face
-	 * @param  {HTMLCanvasElement} The canvas which you want to draw the clm face feature on
+	 * @param  {HTMLCanvasElement} canvas The canvas which you want to draw the clm face feature on
 	 * @param  {String} [strokeStyle] How thick and what colour you'd like to draw your lines
 	 *                                default is the strokestyle defined by the canvas
 	 * @param  {Boolean} [doClear] Should the canvas context be cleared before draw default is true
@@ -81,7 +81,7 @@ module.exports = {
 	 * This method will draw just the lip points to the supplied canvas
 	 * 
 	 * @param  {Array} clmPositions The points returned from clm for the detected face
-	 * @param  {HTMLCanvasElement} The canvas which you want to draw the clm face feature on
+	 * @param  {HTMLCanvasElement} canvas The canvas which you want to draw the clm face feature on
 	 * @param  {String} [strokeStyle] How thick and what colour you'd like to draw your lines
 	 *                                default is the strokestyle defined by the canvas
 	 * @param  {Boolean} [doClear] Should the canvas context be cleared before draw default is true
@@ -92,7 +92,7 @@ module.exports = {
 	 * This method will draw just the nose points to the supplied canvas
 	 * 
 	 * @param  {Array} clmPositions The points returned from clm for the detected face
-	 * @param  {HTMLCanvasElement} The canvas which you want to draw the clm face feature on
+	 * @param  {HTMLCanvasElement} canvas The canvas which you want to draw the clm face feature on
 	 * @param  {String} [strokeStyle] How thick and what colour you'd like to draw your lines
 	 *                                default is the strokestyle defined by the canvas
 	 * @param  {Boolean} [doClear] Should the canvas context be cleared before draw default is true
@@ -103,7 +103,7 @@ module.exports = {
 	 * This method will draw just the right eye points to the supplied canvas
 	 * 
 	 * @param  {Array} clmPositions The points returned from clm for the detected face
-	 * @param  {HTMLCanvasElement} The canvas which you want to draw the clm face feature on
+	 * @param  {HTMLCanvasElement} canvas The canvas which you want to draw the clm face feature on
 	 * @param  {String} [strokeStyle] How thick and what colour you'd like to draw your lines
 	 *                                default is the strokestyle defined by the canvas
 	 * @param  {Boolean} [doClear] Should the canvas context be cleared before draw default is true
@@ -114,7 +114,7 @@ module.exports = {
 	 * This method will draw just the right eyebrow points to the supplied canvas
 	 * 
 	 * @param  {Array} clmPositions The points returned from clm for the detected face
-	 * @param  {HTMLCanvasElement} The canvas which you want to draw the clm face feature on
+	 * @param  {HTMLCanvasElement} canvas The canvas which you want to draw the clm face feature on
 	 * @param  {String} [strokeStyle] How thick and what colour you'd like to draw your lines
 	 *                                default is the strokestyle defined by the canvas
 	 * @param  {Boolean} [doClear] Should the canvas context be cleared before draw default is true
