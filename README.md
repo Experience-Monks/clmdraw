@@ -15,7 +15,7 @@
     * [clmdraw.drawRightEyeBrow](#module_clmdraw.drawRightEyeBrow)
 
 <a name="module_clmdraw.draw"></a>
-##clmdraw.draw
+##clmdraw.draw( clmPositions, canvas, [strokeStyle, doClear ] )
 Draw is equivalent to the draw built into clm (draw the entire face) 
 with the exceptions of drawing in a forehead which can be calculated 
 using the module clmutils and having the ability to define a stroke 
@@ -31,7 +31,7 @@ wont be drawn.
 - \[doClear\] `Boolean` - Should the canvas context be cleared before draw default is true  
 
 <a name="module_clmdraw.drawForehead"></a>
-##clmdraw.drawForehead
+##clmdraw.drawForehead( clmPositions, canvas, [strokeStyle, doClear ] )
 This method will draw just the forehead points if they exist to the supplied canvas
 
 **Params**
@@ -43,7 +43,7 @@ This method will draw just the forehead points if they exist to the supplied can
 - \[doClear\] `Boolean` - Should the canvas context be cleared before draw default is true  
 
 <a name="module_clmdraw.drawJaw"></a>
-##clmdraw.drawJaw
+##clmdraw.drawJaw( clmPositions, canvas, [strokeStyle, doClear ] )
 This method will draw just the jaw points to the supplied canvas
 
 **Params**
@@ -55,7 +55,7 @@ This method will draw just the jaw points to the supplied canvas
 - \[doClear\] `Boolean` - Should the canvas context be cleared before draw default is true  
 
 <a name="module_clmdraw.drawLeftEye"></a>
-##clmdraw.drawLeftEye
+##clmdraw.drawLeftEye( clmPositions, canvas, [strokeStyle, doClear ] )
 This method will draw just the left eye points to the supplied canvas
 
 **Params**
@@ -67,7 +67,7 @@ This method will draw just the left eye points to the supplied canvas
 - \[doClear\] `Boolean` - Should the canvas context be cleared before draw default is true  
 
 <a name="module_clmdraw.drawLeftEyeBrow"></a>
-##clmdraw.drawLeftEyeBrow
+##clmdraw.drawLeftEyeBrow( clmPositions, canvas, [strokeStyle, doClear ] )
 This method will draw just the left eyebrow points to the supplied canvas
 
 **Params**
@@ -79,7 +79,7 @@ This method will draw just the left eyebrow points to the supplied canvas
 - \[doClear\] `Boolean` - Should the canvas context be cleared before draw default is true  
 
 <a name="module_clmdraw.drawLips"></a>
-##clmdraw.drawLips
+##clmdraw.drawLips( clmPositions, canvas, [strokeStyle, doClear ] )
 This method will draw just the lip points to the supplied canvas
 
 **Params**
@@ -91,7 +91,7 @@ This method will draw just the lip points to the supplied canvas
 - \[doClear\] `Boolean` - Should the canvas context be cleared before draw default is true  
 
 <a name="module_clmdraw.drawNose"></a>
-##clmdraw.drawNose
+##clmdraw.drawNose( clmPositions, canvas, [strokeStyle, doClear ] )
 This method will draw just the nose points to the supplied canvas
 
 **Params**
@@ -103,7 +103,7 @@ This method will draw just the nose points to the supplied canvas
 - \[doClear\] `Boolean` - Should the canvas context be cleared before draw default is true  
 
 <a name="module_clmdraw.drawRightEye"></a>
-##clmdraw.drawRightEye
+##clmdraw.drawRightEye( clmPositions, canvas, [strokeStyle, doClear ] )
 This method will draw just the right eye points to the supplied canvas
 
 **Params**
@@ -115,7 +115,7 @@ This method will draw just the right eye points to the supplied canvas
 - \[doClear\] `Boolean` - Should the canvas context be cleared before draw default is true  
 
 <a name="module_clmdraw.drawRightEyeBrow"></a>
-##clmdraw.drawRightEyeBrow
+##clmdraw.drawRightEyeBrow( clmPositions, canvas, [strokeStyle, doClear ] )
 This method will draw just the right eyebrow points to the supplied canvas
 
 **Params**
